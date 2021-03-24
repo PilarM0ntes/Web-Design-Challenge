@@ -9,11 +9,11 @@ body{
 
 .navbar-custom .navbar-brand{
     color: white;
-    background-color: rgb(49, 207, 207);
+    background-color: rgb(74, 170, 165);
     font-size: 30px;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Tahoma;
     margin-bottom: 0mm;
 }
 
@@ -25,8 +25,8 @@ body{
 
 .jumbotron{
     background-color: white;
-    color: rgb(49, 207, 207);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(74, 170, 165);
+    font-family: Tahoma;
 }
 
 #summary-text{
@@ -44,4 +44,10 @@ body{
     padding-bottom: 20px;
 }
 
+.landing-upper-graphs{
+    padding-bottom: 20px;
+}
+#graph-container{
+    padding-top: 10px;
+}
 
