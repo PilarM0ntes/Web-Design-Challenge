@@ -1,0 +1,47 @@
+
+body{
+    background-color: lightgray;
+}
+
+.navbar-custom{
+    padding-bottom: 0px;
+}
+
+.navbar-custom .navbar-brand{
+    color: white;
+    background-color: rgb(49, 207, 207);
+    font-size: 30px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0mm;
+}
+
+
+
+.container{
+    padding-top: 40px;
+}
+
+.jumbotron{
+    background-color: white;
+    color: rgb(49, 207, 207);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#summary-text{
+    color: darkgrey;
+}
+
+#sum-layout{
+    float: left;
+}
+
+#summary-fig{
+    position: relative;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
