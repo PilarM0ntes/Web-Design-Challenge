@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design Challenge</title>
+    <title>Visualization: Max Temperature</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -41,24 +41,24 @@
         </div>       
 
     </nav>
+
     <!-- Create the main layout -->
     <div class="container">
-        <div class = "row">
-            <div class = "col-lg-8">
-                <!-- Create the Summary Section -->
-                <div class = "jumbotron">
-                    <h2>Summary: Latitude vs. X</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="jumbotron">
+                    <h2>Max Temperature</h2>
                     <hr class = "my-4">
-                    <img id = "summary-fig" width = "250" src="images/temperaturemap.png" alt="Max Temperature vs Latitude">
+                    <section class="visualization-graph">
+                        <img width = "500" src="images/temperaturemap.png" alt="Max Temperature">
+                    </section>
                     <p id="summary-text">
-                    The purpose of this project was to analyze how the weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br><br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                        As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to warmer this time of the year than the northern hemisphere. This may be due t the tilt of the earth at the time of the year this data was gathered.
                     </p>
                 </div>
+
             </div>
-            <div class = "col-lg-4">
-                <!-- Create the Visualization Section -->
+            <div class="col-lg-4">
                 <div class = "jumbotron">
                     <h3>Visualizations</h3>
                     <hr class = "my-4">
@@ -68,12 +68,12 @@
                         <div class="row">
                             <div class="col-lg-6 landing-graphs">
                                 <a href="visualization_temp.html">
-                                    <img  width = "100" src="images/temperaturemap.png" alt="Max Temperature">
+                                    <img  class = "active-img" width = "100" src="images/temperaturemap.png" alt="Max Temperature">
                                 </a>
                             </div>
                             <div class="col-lg-6 landing-graphs">
-                                <a href="visualization_humi.html">
-                                    <img  width = "100" src="images/humiditymap.png" alt="Humidity">
+                                <a href="visualization_cloud.html">
+                                    <img  width = "100" src="images/cloudymap.png" alt="Cloudiness">
                                 </a>
                             </div>
                         </div>
@@ -81,8 +81,8 @@
                         <!-- Last 2 graphs !!MISSING ID -->
                         <div class="row">
                             <div class="col-lg-6 landing-graphs">
-                                <a href="visualization_cloud.html">
-                                    <img  width = "100" src="images/cloudymap.png" alt="Cloudiness">
+                                <a href="visualization_humi.html">
+                                    <img  width = "100" src="images/Humiditymap.png" alt="Humidity">
                                 </a>
                             </div>
                             <div class="col-lg-6 landing-graphs">
@@ -93,19 +93,18 @@
                         </div>
 
                     </div>
-                </div>               
+                </div>
 
             </div>
 
         </div>
-
     </div>
 
-    
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    
+
+
 </body>
 </html>

@@ -59,6 +59,18 @@ body{
     text-align: center;
 }
 
+.visualization-graph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 
+
+
+.active-img{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(74, 170, 165);
+}
 
 
