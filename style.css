@@ -66,7 +66,7 @@ body{
     text-align: center;
 }
 
-.active-img{
+.img-thumbnail{
     border: 2px;
     border-style: solid;
     border-color: rgb(74, 170, 165);
@@ -82,8 +82,10 @@ body{
     border: transparent;
 }
 
-.navbar-expand-lg .navbar-collapse{
-    padding-right: 20px;
+
+
+.table th{
+    border-top-color: transparent;
 }
 
 @media (max-width: 991.98px){
@@ -100,6 +102,11 @@ body{
 
     .dropdown-menu{
         background-color: white;
+    }
+
+    .bigger-img{
+        width: 600px;
+        padding-top: 20px;
     }
 
 }
