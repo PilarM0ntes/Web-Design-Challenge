@@ -5,6 +5,9 @@ body{
 
 .navbar-custom{
     padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
 }
 
 .navbar-custom .navbar-brand{
@@ -16,8 +19,6 @@ body{
     font-family:Tahoma;
     margin-bottom: 0mm;
 }
-
-
 
 .container{
     padding-top: 40px;
@@ -65,12 +66,43 @@ body{
     text-align: center;
 }
 
-
-
 .active-img{
     border: 2px;
     border-style: solid;
     border-color: rgb(74, 170, 165);
 }
+
+.navbar-light .navbar-toggler{
+    border-color: white;
+    margin-right: 20px;
+
+}
+
+.navbar-nav .dropdown-menu{
+    border: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    padding-right: 20px;
+}
+
+@media (max-width: 991.98px){
+    .navbar-custom{
+        background-color: rgb(74, 170, 165);
+
+    }
+    .navbar-nav{
+        background-color: white;
+    }   
+    body{
+        background-color: white;
+    }
+
+    .dropdown-menu{
+        background-color: white;
+    }
+
+}
+
 
 
